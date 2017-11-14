@@ -32,13 +32,10 @@ public class Light_Move : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, targetWayPoint.position, speed * Time.deltaTime);
 
-        if (transform.position == targetWayPoint.position)
+        if (transform.position == targetWayPoint.position && currentWayPoint < wayPointList.Length - 1)
         {
             currentWayPoint++;
             targetWayPoint = wayPointList[currentWayPoint];
-
-            if (currentWayPoint == wayPointList.Length)
-                currentWayPoint = 0;
         }
     }
 }
