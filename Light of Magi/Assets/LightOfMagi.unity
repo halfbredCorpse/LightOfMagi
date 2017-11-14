@@ -3456,10 +3456,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1053481974}
   - component: {fileID: 1053481973}
-  - component: {fileID: 1053481972}
-  - component: {fileID: 1053481975}
   - component: {fileID: 1053481976}
   - component: {fileID: 1053481971}
+  - component: {fileID: 1053481972}
+  - component: {fileID: 1053481975}
   m_Layer: 0
   m_Name: Magi 1_Front_ Idle
   m_TagString: Untagged
