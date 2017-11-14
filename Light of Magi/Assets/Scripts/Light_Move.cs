@@ -20,7 +20,7 @@ public class Light_Move : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		if (currentWayPoint < this.wayPointList.Length)
+		if (currentWayPoint < wayPointList.Length)
         {
             if (targetWayPoint == null)
                 targetWayPoint = wayPointList[currentWayPoint];
@@ -36,6 +36,9 @@ public class Light_Move : MonoBehaviour
         {
             currentWayPoint++;
             targetWayPoint = wayPointList[currentWayPoint];
+
+            if (currentWayPoint == wayPointList.Length)
+                currentWayPoint = 0;
         }
     }
 }
