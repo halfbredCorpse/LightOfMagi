@@ -30,25 +30,28 @@ public class Player_Movement : MonoBehaviour
          * Direction = 7; Left/Walking
          */
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        var vertical = Input.GetAxis("Vertical");
+        var horizontal = Input.GetAxis("Horizontal");
+
+        if (vertical > 0)
         {
             recKey = KeyCode.UpArrow;
             animator.Play("Magi 1_Back_ Walking_Anim");
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);
         }
-        else if (Input.GetKey(KeyCode.DownArrow))
+        else if (vertical < 0)
         {
             recKey = KeyCode.DownArrow;
             animator.Play("Magi 1_Front_Walking_Anim");
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, -speed);
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (horizontal > 0)
         {
             recKey = KeyCode.RightArrow;
             animator.Play("Magi 1_Right_Walking_Anim");
             GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (horizontal < 0)
         {
             recKey = KeyCode.LeftArrow;
             animator.Play("Magi 1_Left_Walking_Anim");
