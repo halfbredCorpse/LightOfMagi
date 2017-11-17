@@ -20,7 +20,7 @@ public class Light_Move : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		if (currentWayPoint < this.wayPointList.Length)
+		if (currentWayPoint < wayPointList.Length)
         {
             if (targetWayPoint == null)
                 targetWayPoint = wayPointList[currentWayPoint];
@@ -32,7 +32,7 @@ public class Light_Move : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, targetWayPoint.position, speed * Time.deltaTime);
 
-        if (transform.position == targetWayPoint.position)
+        if (transform.position == targetWayPoint.position && currentWayPoint < wayPointList.Length - 1)
         {
             currentWayPoint++;
             targetWayPoint = wayPointList[currentWayPoint];
