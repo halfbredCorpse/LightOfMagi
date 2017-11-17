@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Camera_FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Light_Move.cs" />
     <Compile Include="Assets\Scripts\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Scene_Selector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
