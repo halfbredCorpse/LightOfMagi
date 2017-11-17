@@ -1,0 +1,35 @@
+LIGHT OF MAGI OBJECTS
+	Objects - game objects that the player can interact with
+	
+1. Title Screen
+	1. Play Button - opens Select Level Screen
+	2. Settings Button - opens Settings Screen
+	
+2. Select Level Screen
+	1. Level 1 Button - starts Level 1
+	2. Level 2 Button - starts Level 2
+	3. Level 3 Button - starts Level 3
+	...
+	12. Level 12 Button - starts Level 12
+	13. Return Button - returns to Title Screen
+	
+3. Settings Screen
+	1. Mute Button - mutes/unmutes music
+	2. Return Button - returns to Title Screen
+	* Credits Box - shows credits
+	
+4. Level X Screen
+	1. Pause Button - opens Pause Screen
+	2. Directional Arrows - makes the current Magus move
+	3. Palm Tree - acts as a wall, prevents movement
+	4. Quicksand - acts as a trap, ends game with Game Over Screen
+	3. End Pint - acts as goal, opens Success Screen
+	
+5. Pause/Game Over Screen
+	1. Restart Button - restarts current level at starting point
+	2. Quit Button - ends current level and returns to Select Level Screen
+	
+6. Success Screen
+	1. Restart Button - restarts current level at starting point
+	2. Level Select Button - returns to Select Level Screen
+	3. Next Button - shows Bible verse then proceeds to next level
