@@ -1,25 +1,68 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.EventSystems;
 
-public class Movement : MonoBehaviour {
+[System.Serializable]
+public enum eMovementDirection
+{
+    Up, Down, Left, Right
+}
 
-    float dirX;
-    float dirY;
-    public float speed = 0.7f;
+public class Movement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    public eMovementDirection Direction;
+    Player_Animation anim;
 
-        dirX = CrossPlatformInputManager.GetAxis("Horizontal");
-        dirY = CrossPlatformInputManager.GetAxis("Vertical");
+    bool pressed = false;
 
-        transform.position = new Vector2(transform.position.x + dirX, transform.position.y + dirY);
-	}
+    void Start()
+    {
+        anim = GameObject.FindGameObjectWithTag("Magi").GetComponent<Player_Animation>();
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        pressed = true;
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        pressed = false;
+    }
+
+    void Update()
+    {
+        if(pressed)
+        {
+            switch (Direction)
+            {
+                case eMovementDirection.Up:
+                    {
+                        anim.moveUp();
+                    }
+                    break;
+                case eMovementDirection.Down:
+                    {
+                        anim.moveDown();
+                    }
+                    break;
+                case eMovementDirection.Right:
+                    {
+                        anim.moveRight();
+                    }
+                    break;
+                case eMovementDirection.Left:
+                    {
+                        anim.moveLeft();
+                    }
+                    break;
+            }
+        }
+        else
+        {
+            anim.notMove();
+        }
+    }
 }
