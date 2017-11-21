@@ -312,9 +312,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 342
+    x: 333
     y: 92
-    width: 805
+    width: 814
     height: 424
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
@@ -433,19 +433,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jasmin Rose\Documents\GitHub\LightOfMagi\Light of Magi
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a270000
-    m_LastClickedID: 10074
-    m_ExpandedIDs: 000000005e260000b82700002a280000702b000000ca9a3bffffff7f
+    m_SelectedIDs: ee270000
+    m_LastClickedID: 10222
+    m_ExpandedIDs: 0000000060260000b82700002a280000842b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +473,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e260000b82700002a280000702b0000
+    m_ExpandedIDs: 0000000060260000b82700002a280000842b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000065b00007c2600002c26000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     height: 424
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 8aadf5ff28aef5ff38aff5ff3caff5ff42aff5ff12daf5ffaedaf5ffbedbf5ffc2dbf5ffc8dbf5ff0483f7ffd8e7ffff1afcffff00000000762800009c290000b6d000005cd10000
+    m_SelectedIDs: de370000
+    m_LastClickedID: 14302
+    m_ExpandedIDs: 38adffff3aadffff3eadfffff8b4ffffd8b6ffffe0b7ffff40b9ffff60c5ffff1afcffff00000000a62900004c2a0000aa2e0000ba2e000048370000ee370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -641,14 +641,14 @@ MonoBehaviour:
     width: 814
     height: 424
   m_SceneLighting: 1
-  lastFramingTime: 9492.973676529724
+  lastFramingTime: 787.222467608229
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.38601473, y: -1.1389694, z: 90}
+    m_Target: {x: 0.41043758, y: -1.2269127, z: 0}
     speed: 2
-    m_Value: {x: 0.38601473, y: -1.1389694, z: 90}
+    m_Value: {x: 0.41043758, y: -1.2269127, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -675,9 +675,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.730992
+    m_Target: 2.7337744
     speed: 2
-    m_Value: 8.730992
+    m_Value: 2.7337744
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -722,8 +722,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -114.46875
-    m_HBaseRangeMax: 114.46875
+    m_HBaseRangeMin: -127.1875
+    m_HBaseRangeMax: 127.1875
     m_VBaseRangeMin: -203.5
     m_VBaseRangeMax: 203.5
     m_HAllowExceedBaseRangeMin: 1
