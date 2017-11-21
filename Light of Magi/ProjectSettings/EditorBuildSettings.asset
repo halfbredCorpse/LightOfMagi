@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_1_Freedom.unity
     guid: 1604fbc7f588fb4428eb338127b47b11
+  - enabled: 1
+    path: Assets/Scenes/Level_2_Distraction.unity
+    guid: 68c5495de4a390a43b5149a70554690e

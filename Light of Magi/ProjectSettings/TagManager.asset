@@ -11,6 +11,7 @@ TagManager:
   - Magi
   - Goal
   - SecondCanvas
+  - Third Canvas
   layers:
   - Default
   - TransparentFX
