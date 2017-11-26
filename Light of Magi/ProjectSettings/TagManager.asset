@@ -11,6 +11,8 @@ TagManager:
   - Magi
   - Goal
   - SecondCanvas
+  - PauseCanvas
+  - Star
   layers:
   - Default
   - TransparentFX
