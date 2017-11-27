@@ -16,4 +16,9 @@ public class Scene_Selector : MonoBehaviour {
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
