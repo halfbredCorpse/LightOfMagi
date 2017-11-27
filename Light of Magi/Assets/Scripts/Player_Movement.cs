@@ -2,80 +2,81 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class Player_Movement : MonoBehaviour
 {
-    public Transform player;
+    [Range(0.1f, 1f)]
     public float speed;
-    private Animator animator;
-    private KeyCode recKey;
+
+    Animator animator;
+    Rigidbody2D rb;
+    GUIContent btn;
+
+    int idleState;
 
     // Use this for initialization
     void Start()
     {
         animator = this.GetComponent<Animator>();
-    }
+        rb = this.GetComponent<Rigidbody2D>();
+    } 
 
     // Update is called once per frame
     void Update()
     {
-        /*
-         * Direction = 0; Front/Idle
-         * Direction = 1; Back/Idle
-         * Direction = 2; Right/Idle
-         * Direction = 3; Left/Idle
-         * Direction = 4; Front/Walking
-         * Direction = 5; Back/Walking
-         * Direction = 6; Right/Walking
-         * Direction = 7; Left/Walking
-         */
+        rb.WakeUp();
 
-        var vertical = Input.GetAxis("Vertical");
-        var horizontal = Input.GetAxis("Horizontal");
+        var vertical = CrossPlatformInputManager.GetAxis("Vertical") * speed * Time.deltaTime;
+        var horizontal = CrossPlatformInputManager.GetAxis("Horizontal") * speed * Time.deltaTime;
+
+        //transform.position = new Vector2(transform.position.x + horizontal, transform.position.y + vertical);
+        rb.velocity = new Vector2(horizontal * speed, vertical * speed);
+        rb.velocity = rb.velocity.normalized * speed;
+
+        /*
+        * idleState = 1; Front
+        * idleState = 2; Back
+        * idleState = 3; Right
+        * idleState = 4; Left
+        */
 
         if (vertical > 0)
         {
-            recKey = KeyCode.UpArrow;
             animator.Play("Magi 1_Back_ Walking_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);
+            idleState = 2;
         }
-        else if (vertical < 0)
+        else if(vertical < 0)
         {
-            recKey = KeyCode.DownArrow;
             animator.Play("Magi 1_Front_Walking_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, -speed);
+            idleState = 1;
         }
-        else if (horizontal > 0)
+        else if(horizontal > 0)
         {
-            recKey = KeyCode.RightArrow;
             animator.Play("Magi 1_Right_Walking_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
+            idleState = 3;
         }
         else if (horizontal < 0)
         {
-            recKey = KeyCode.LeftArrow;
             animator.Play("Magi 1_Left_Walking_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, 0);
+            idleState = 4;
         }
-        else if (recKey == KeyCode.UpArrow)
+
+        if (Input.touchCount == 0)
         {
-            animator.Play("Magi 1_Back_ Idle_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        }
-        else if (recKey == KeyCode.DownArrow)
-        {
-            animator.Play("Magi 1_Front_Idle_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        }
-        else if (recKey == KeyCode.RightArrow)
-        {
-            animator.Play("Magi 1_Right_Idle_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-        }
-        else if (recKey == KeyCode.LeftArrow)
-        {
-            animator.Play("Magi 1_Left_Idle_Anim");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            //transform.position = new Vector2(transform.position.x, transform.position.y);
+            rb.Sleep();
+
+            Debug.Log(idleState);
+            if (idleState == 1)
+                animator.Play("Magi 1_Front_Idle_Anim");
+            else if (idleState == 2)
+                animator.Play("Magi 1_Back_ Idle_Anim");
+            else if (idleState == 3)
+                animator.Play("Magi 1_Right_Idle_Anim");
+            else if (idleState == 4)
+                animator.Play("Magi 1_Left_Idle_Anim");
         }
     }
 }

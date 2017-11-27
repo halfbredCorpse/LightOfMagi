@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Up
+  - Down
+  - Left
+  - Right
+  - Magi
+  - Goal
+  - SecondCanvas
+  - PauseCanvas
+  - Star
+  - Quicksand
   layers:
   - Default
   - TransparentFX
@@ -13,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Traps
   - 
   - 
   - 
