@@ -13,6 +13,7 @@ TagManager:
   - SecondCanvas
   - PauseCanvas
   - Star
+  - Quicksand
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Traps
   - 
   - 
   - 

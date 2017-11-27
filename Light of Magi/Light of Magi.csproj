@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Pause_Script.cs" />
     <Compile Include="Assets\Scripts\Player_Animation.cs" />
     <Compile Include="Assets\Scripts\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Quicksand_Gameover.cs" />
     <Compile Include="Assets\Scripts\Reached_Target.cs" />
     <Compile Include="Assets\Scripts\Scene_Selector.cs" />
   </ItemGroup>

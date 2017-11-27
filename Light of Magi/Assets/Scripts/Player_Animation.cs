@@ -20,39 +20,47 @@ public class Player_Animation : MonoBehaviour {
 
     public void moveUp()
     {
-        if(magi == 1)
+        if (magi == 1)
             animator.Play("Magi 1_Back_ Walking_Anim");
-        else if(magi == 2)
+        else if (magi == 2)
             animator.Play("Magi 2_Back_Walking_Anim");
+        else if (magi == 3)
+            animator.Play("Magi 3_Back_Walking_Anim");
         rb.velocity = new Vector2(0, speed);
         idleState = 1;
     }
 
     public void moveDown()
     {
-        if(magi == 1)
+        if (magi == 1)
             animator.Play("Magi 1_Front_Walking_Anim");
-        else if(magi == 2)
+        else if (magi == 2)
             animator.Play("Magi 2_Front_Walking_Anim");
+        else if (magi == 3)
+            animator.Play("Magi 3_Front_Walking_Anim");
         rb.velocity = new Vector2(0, -speed);
         idleState = 2;
     }
 
     public void moveRight()
     {
-        if(magi == 1)
+        if (magi == 1)
             animator.Play("Magi 1_Right_Walking_Anim");
-        else if(magi == 2)
+        else if (magi == 2)
             animator.Play("Magi 2_Right_Walking_Anim");
+        else if (magi == 3)
+            animator.Play("Magi 3_Right_Walking_Anim");
         rb.velocity = new Vector2(speed, 0);
         idleState = 3;
     }
 
     public void moveLeft()
     {
-        if(magi == 1)
+        if (magi == 1)
             animator.Play("Magi 1_Left_Walking_Anim");
-        else if(magi == 2)
+        else if (magi == 2)
+            animator.Play("Magi 2_Left_Walking_Anim");
+        else if (magi == 3)
             animator.Play("Magi 2_Left_Walking_Anim");
         rb.velocity = new Vector2(-speed, 0);
         idleState = 4;
@@ -79,24 +87,32 @@ public class Player_Animation : MonoBehaviour {
                         animator.Play("Magi 1_Front_Idle_Anim");
                     else if(magi == 2)
                         animator.Play("Magi 2_Front_Idle_Anim");
+                    else if(magi == 3)
+                        animator.Play("Magi 3_Front_Idle_Anim");
                     break;
                 case 1:
                     if (magi == 1)
                         animator.Play("Magi 1_Back_ Idle_Anim");
                     else if (magi == 2)
                         animator.Play("Magi 2_Back_Idle_Anim");
+                    else if (magi == 3)
+                        animator.Play("Magi 3_Back_Idle_Anim");
                     break;
                 case 3:
                     if(magi == 1)
                         animator.Play("Magi 1_Right_Idle_Anim");
                     else if(magi == 2)
                         animator.Play("Magi 2_Right_Idle_Anim");
+                    else if (magi == 3)
+                        animator.Play("Magi 3_Right_Idle_Anim");
                     break;
                 case 4:
                     if(magi == 1)
                         animator.Play("Magi 1_Left_Idle_Anim");
                     else if(magi == 2)
                         animator.Play("Magi 2_Left_Idle_Anim");
+                    else if (magi == 3)
+                        animator.Play("Magi 3_Left_Idle_Anim");
                     break;
             }
         }
