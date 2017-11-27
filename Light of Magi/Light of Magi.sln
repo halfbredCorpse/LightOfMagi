@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light of Magi.Plugins", "Light of Magi.Plugins.csproj", "{4851F617-0BB7-0477-1D9B-05304EE68A9A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light of Magi", "Light of Magi.csproj", "{5745769B-1439-2520-7834-718C35A508E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light of Magi.Plugins", "Light of Magi.Plugins.csproj", "{4851F617-0BB7-0477-1D9B-05304EE68A9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light of Magi.Editor.Plugins", "Light of Magi.Editor.Plugins.csproj", "{35CEC106-428B-D0BC-BB1E-BF0AA90DFC9C}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5745769B-1439-2520-7834-718C35A508E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5745769B-1439-2520-7834-718C35A508E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5745769B-1439-2520-7834-718C35A508E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5745769B-1439-2520-7834-718C35A508E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4851F617-0BB7-0477-1D9B-05304EE68A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35CEC106-428B-D0BC-BB1E-BF0AA90DFC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35CEC106-428B-D0BC-BB1E-BF0AA90DFC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CEC106-428B-D0BC-BB1E-BF0AA90DFC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU

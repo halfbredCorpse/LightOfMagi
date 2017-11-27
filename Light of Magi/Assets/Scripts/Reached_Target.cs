@@ -5,12 +5,14 @@ using UnityEngine;
 public class Reached_Target : MonoBehaviour {
 
     GameObject target;
+    GameObject star;
     GameObject secondCanvas;
 
 	// Use this for initialization
 	void Start () {
         secondCanvas = GameObject.FindGameObjectWithTag("SecondCanvas");
         target = GameObject.FindGameObjectWithTag("Goal");
+        star = GameObject.FindGameObjectWithTag("Star");
         secondCanvas.GetComponent<Canvas>().enabled = false;
     }
 	
@@ -24,6 +26,7 @@ public class Reached_Target : MonoBehaviour {
                 secondCanvas.GetComponent<Canvas>().enabled = true;
                 gameObject.SetActive(false);
                 target = null;
+                star.SetActive(false);
             }
         }
 	}
