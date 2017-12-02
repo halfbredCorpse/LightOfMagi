@@ -5,15 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Scene_Selector : MonoBehaviour {
 
+    public Color color;
+
     // Use this for initialization
     public void LoadScene(string scene)
     {
-        SceneManager.LoadScene(scene);
-        Debug.Log(scene);
-    }
+        color = Color.black;
+        //Fade Animation
+        color.a = 0.5f;
+        Initiate.Fade(scene, color, 50.0f);
 
-    public void LoadScene1(int scene)
-    {
         SceneManager.LoadScene(scene);
     }
 

@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
 
     public eMovementDirection Direction;
+    FootSteps walkingSound;
     Player_Animation anim;
 
     bool pressed = false;
@@ -20,6 +21,7 @@ public class Movement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     void Start()
     {
         anim = GameObject.FindGameObjectWithTag("Magi").GetComponent<Player_Animation>();
+        walkingSound = GameObject.FindGameObjectWithTag("Magi").GetComponent<FootSteps>();
     }
 
     public void OnPointerDown(PointerEventData eventData)

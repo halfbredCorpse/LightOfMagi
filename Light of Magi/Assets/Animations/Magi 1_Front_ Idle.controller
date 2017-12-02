@@ -132,13 +132,13 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &1102004270659510380
+--- !u!1102 &1102004463847704486
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Back_ Walking_Anim
+  m_Name: Magi 3_Back_Walking_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -150,18 +150,18 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 84352f508a9c0a646801aa8fb814f2cf, type: 2}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102039971616606422
+--- !u!1102 &1102006556547736788
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Right_Walking_Anim
+  m_Name: Magi 3_Left_Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -173,18 +173,18 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1cabd657b5e40a149b0fe0fffa59c321, type: 2}
+  m_Motion: {fileID: 7400000, guid: ace2196d4367f6e439a3fb4d993cf6ed, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102074779103735012
+--- !u!1102 &1102050409247013986
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Right_Walking_Anim
+  m_Name: Magi 2_Front_Walking_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -196,7 +196,30 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 71e8cbb6dfb10134592cca5e3ee8256f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8bf03e4ed1f132f4a98e61a8417aefb6, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102083393015317200
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 2_Left_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: bd28fbdef47ddbb4aa7ac925b107b34f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -247,13 +270,13 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102138792972224674
+--- !u!1102 &1102136229141190294
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Back_ Idle_Anim
+  m_Name: Magi 1_Right_Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -265,41 +288,18 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4ec62f64cded6454db5717763b8c1a3b, type: 2}
+  m_Motion: {fileID: 7400000, guid: c625393c5b570e74fbf9e0b45945f29a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102177640911466678
+--- !u!1102 &1102144344771355616
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Front_Walking_Anim
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 0
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4ced14e27762d484e82199f4331b37cd, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
---- !u!1102 &1102296260915661272
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Back_Walking_Anim
+  m_Name: Magi 1_Back_ Walking_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -311,12 +311,81 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c15602c205b917444b9b57d5701f68e8, type: 2}
+  m_Motion: {fileID: 7400000, guid: 84352f508a9c0a646801aa8fb814f2cf, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102387624011552102
+--- !u!1102 &1102149293703198094
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 1_Front_ Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 95bd582ed20356a499a15b19ce9bb1a1, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102200413644313856
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Front_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102203990787169138
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Back_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ab9a18f108334644e9b80c3917aed00c, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102219951577475172
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -335,6 +404,190 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 9c5e243f1f0362042ae8fd1fd4cbad47, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102222593151897666
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Left_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 616aeddc90f1b6344a73c844a81035a9, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102226091150166932
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Right_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 7e12120aea8cd6c4da19983b2251bdde, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102239158577549152
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Front_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102278503228182776
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Back_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: c46a80d3932eef94984e6baeb4e320c8, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102292755290000380
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 1_Left_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 418b2e2ff112a9a4cbbd3383bfdcfa1f, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102338522231115106
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 2_Right_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 3bf6421253a9d454a8ca17241e55070a, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102397029932279476
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Front_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0db20ca6f8e742f448083f9e85066f73, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102419255799814122
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 2_Left_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: ac7f137dda05f5744ac9dd3be2737f30, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -362,52 +615,6 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102497389060838758
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Left_Walking_Anim
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ac7f137dda05f5744ac9dd3be2737f30, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
---- !u!1102 &1102500669374104972
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Front_Idle_Anim
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 76739220ce0afbe409d14d874d460803, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
 --- !u!1102 &1102558347288303750
 AnimatorState:
   serializedVersion: 5
@@ -427,6 +634,29 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 06dcfbe7a04aced4ab94fa011798d288, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102644620640339546
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Front_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f1f84abdba865c648882d4d15ade457d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -454,13 +684,13 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102666940381425844
+--- !u!1102 &1102683279480339168
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Front_Walking_Anim
+  m_Name: Magi 2_Front_Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -472,18 +702,18 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8bf03e4ed1f132f4a98e61a8417aefb6, type: 2}
+  m_Motion: {fileID: 7400000, guid: 76739220ce0afbe409d14d874d460803, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102675793330917792
+--- !u!1102 &1102700018682982562
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Left_Walking_Anim
+  m_Name: Magi 1_Right_Walking_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -495,7 +725,30 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 418b2e2ff112a9a4cbbd3383bfdcfa1f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1cabd657b5e40a149b0fe0fffa59c321, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102724235069325174
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 2_Right_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 71e8cbb6dfb10134592cca5e3ee8256f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -523,13 +776,13 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102802059376865604
+--- !u!1102 &1102794199384046874
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Left_Idle_Anim
+  m_Name: Magi 3_Right_Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -541,7 +794,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bd28fbdef47ddbb4aa7ac925b107b34f, type: 2}
+  m_Motion: {fileID: 7400000, guid: a8851792f3b5e2b4ca04c9911e429350, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -592,13 +845,13 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102869141196853304
+--- !u!1102 &1102828216398893092
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 2_Right_Idle_Anim
+  m_Name: Magi 2_Back_Walking_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -610,18 +863,18 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3bf6421253a9d454a8ca17241e55070a, type: 2}
+  m_Motion: {fileID: 7400000, guid: c15602c205b917444b9b57d5701f68e8, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102898780893439840
+--- !u!1102 &1102884329688192758
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Right_Idle_Anim
+  m_Name: Magi 1_Left_Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -633,7 +886,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c625393c5b570e74fbf9e0b45945f29a, type: 2}
+  m_Motion: {fileID: 7400000, guid: 25a38aa1e297974439ab8a0f0323efb1, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -661,13 +914,13 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
---- !u!1102 &1102985871756635884
+--- !u!1102 &1102910383593978026
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Magi 1_Left_Idle_Anim
+  m_Name: Magi 1_Back_ Idle_Anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -679,7 +932,76 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 25a38aa1e297974439ab8a0f0323efb1, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4ec62f64cded6454db5717763b8c1a3b, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102922396819467124
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 1_Front_Idle_Anim 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 06dcfbe7a04aced4ab94fa011798d288, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102935472927638460
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 3_Back_Idle_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+--- !u!1102 &1102976265198740048
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magi 1_Front_Walking_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 4ced14e27762d484e82199f4331b37cd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -739,53 +1061,83 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 1102177640911466678}
-    m_Position: {x: 12, y: -132, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 1102004270659510380}
-    m_Position: {x: -264, y: -132, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 1102558347288303750}
     m_Position: {x: 12, y: 0, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102138792972224674}
-    m_Position: {x: -264, y: 0, z: 0}
+    m_State: {fileID: 1102278503228182776}
+    m_Position: {x: -147, y: -108, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102985871756635884}
-    m_Position: {x: -165, y: 155, z: 0}
+    m_State: {fileID: 1102203990787169138}
+    m_Position: {x: -135, y: -96, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102675793330917792}
-    m_Position: {x: 108, y: 168, z: 0}
+    m_State: {fileID: 1102397029932279476}
+    m_Position: {x: -207, y: -7, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102898780893439840}
-    m_Position: {x: 144, y: 240, z: 0}
+    m_State: {fileID: 1102644620640339546}
+    m_Position: {x: -195, y: 5, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102039971616606422}
-    m_Position: {x: 180, y: 300, z: 0}
+    m_State: {fileID: 1102006556547736788}
+    m_Position: {x: -183, y: 17, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102296260915661272}
-    m_Position: {x: 60, y: 492, z: 0}
+    m_State: {fileID: 1102222593151897666}
+    m_Position: {x: -171, y: 29, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102387624011552102}
-    m_Position: {x: 228, y: 372, z: 0}
+    m_State: {fileID: 1102794199384046874}
+    m_Position: {x: -159, y: 41, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102666940381425844}
-    m_Position: {x: 263, y: 437, z: 0}
+    m_State: {fileID: 1102226091150166932}
+    m_Position: {x: -147, y: 53, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102500669374104972}
-    m_Position: {x: 298, y: 502, z: 0}
+    m_State: {fileID: 1102910383593978026}
+    m_Position: {x: -231, y: -117, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102497389060838758}
-    m_Position: {x: 333, y: 567, z: 0}
+    m_State: {fileID: 1102144344771355616}
+    m_Position: {x: -219, y: -105, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102802059376865604}
-    m_Position: {x: 368, y: 632, z: 0}
+    m_State: {fileID: 1102149293703198094}
+    m_Position: {x: -207, y: -93, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102074779103735012}
-    m_Position: {x: 403, y: 697, z: 0}
+    m_State: {fileID: 1102922396819467124}
+    m_Position: {x: -195, y: -81, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1102869141196853304}
-    m_Position: {x: 438, y: 762, z: 0}
+    m_State: {fileID: 1102976265198740048}
+    m_Position: {x: -183, y: -69, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102884329688192758}
+    m_Position: {x: -171, y: -57, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102292755290000380}
+    m_Position: {x: -159, y: -45, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102136229141190294}
+    m_Position: {x: -147, y: -33, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102700018682982562}
+    m_Position: {x: -135, y: -21, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102219951577475172}
+    m_Position: {x: -123, y: -9, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102828216398893092}
+    m_Position: {x: -111, y: 3, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102683279480339168}
+    m_Position: {x: -99, y: 15, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102050409247013986}
+    m_Position: {x: -87, y: 27, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102083393015317200}
+    m_Position: {x: -75, y: 39, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102419255799814122}
+    m_Position: {x: -63, y: 51, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102338522231115106}
+    m_Position: {x: -51, y: 63, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102724235069325174}
+    m_Position: {x: -39, y: 75, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
