@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level_1_Freedom.unity
+- path: Assets/Scenes/Level_5_Endlessness.unity
   isLoaded: 1
   isActive: 1
