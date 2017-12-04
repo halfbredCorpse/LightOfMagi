@@ -7,13 +7,23 @@ public class Reached_Target : MonoBehaviour {
     GameObject target;
     GameObject star;
     GameObject secondCanvas;
+    bool entered;
 
-	// Use this for initialization
-	void Start () {
+    public bool Entered
+    {
+        get
+        {
+            return entered;
+        }
+    }
+
+    // Use this for initialization
+    void Start () {
         secondCanvas = GameObject.FindGameObjectWithTag("SecondCanvas");
         target = GameObject.FindGameObjectWithTag("Goal");
         star = GameObject.FindGameObjectWithTag("Star");
         secondCanvas.GetComponent<Canvas>().enabled = false;
+        entered = false;
     }
 	
 	// Update is called once per frame
@@ -22,7 +32,7 @@ public class Reached_Target : MonoBehaviour {
         {
             if (Vector2.Distance(transform.position, target.transform.position) <= 0.1)
             {
-                Debug.Log("Enter");
+                entered = true;
                 secondCanvas.GetComponent<Canvas>().enabled = true;
                 gameObject.SetActive(false);
                 target = null;

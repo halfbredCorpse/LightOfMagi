@@ -14,6 +14,9 @@ TagManager:
   - PauseCanvas
   - Star
   - Quicksand
+  - End Text
+  - Scroll
+  - Plain Sand
   layers:
   - Default
   - TransparentFX

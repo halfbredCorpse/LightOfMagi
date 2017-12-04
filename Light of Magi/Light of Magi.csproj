@@ -85,7 +85,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera_FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Fade.cs" />
+    <Compile Include="Assets\Scripts\Fading_Script.cs" />
     <Compile Include="Assets\Scripts\Follow_Player.cs" />
+    <Compile Include="Assets\Scripts\FootSteps.cs" />
+    <Compile Include="Assets\Scripts\GameComplete.cs" />
     <Compile Include="Assets\Scripts\Light_Move.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Pause_Menu.cs" />
@@ -95,8 +99,12 @@
     <Compile Include="Assets\Scripts\Quicksand_Gameover.cs" />
     <Compile Include="Assets\Scripts\Reached_Target.cs" />
     <Compile Include="Assets\Scripts\Scene_Selector.cs" />
+    <Compile Include="Assets\Scripts\TextFade.cs" />
+    <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
+    <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Initiate.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Simple Scene Fade Load System\ReadMeFirst.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
   </ItemGroup>

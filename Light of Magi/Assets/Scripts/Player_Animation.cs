@@ -61,7 +61,7 @@ public class Player_Animation : MonoBehaviour {
         else if (magi == 2)
             animator.Play("Magi 2_Left_Walking_Anim");
         else if (magi == 3)
-            animator.Play("Magi 2_Left_Walking_Anim");
+            animator.Play("Magi 3_Left_Walking_Anim");
         rb.velocity = new Vector2(-speed, 0);
         idleState = 4;
     }
@@ -70,16 +70,6 @@ public class Player_Animation : MonoBehaviour {
     {
         if (Input.touchCount == 0)
         {
-            /*
-            if (idleState == 2)
-                animator.Play("Magi 1_Front_Idle_Anim");
-            else if (idleState == 1)
-                animator.Play("Magi 1_Back_ Idle_Anim");
-            else if (idleState == 3)
-                animator.Play("Magi 1_Right_Idle_Anim");
-            else if (idleState == 4)
-                animator.Play("Magi 1_Left_Idle_Anim");
-                */
             switch (idleState)
             {
                 case 2:
