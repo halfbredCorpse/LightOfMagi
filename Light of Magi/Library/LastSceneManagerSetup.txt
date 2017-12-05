@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level_8_Confusion.unity
+- path: Assets/Scenes/Level_10_Illusions.unity
   isLoaded: 1
   isActive: 1
