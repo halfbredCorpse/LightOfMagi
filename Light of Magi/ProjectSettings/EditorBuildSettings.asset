@@ -17,3 +17,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_2_Distraction.unity
     guid: 68c5495de4a390a43b5149a70554690e
+  - enabled: 1
+    path: Assets/Scenes/Level_3_Suffocation.unity
+    guid: 39147f807728398498cb3445f8729519
+  - enabled: 1
+    path: Assets/Scenes/Level_4_Despair.unity
+    guid: f5046ff3f0e0d7247991040510f2a7e4
+  - enabled: 1
+    path: Assets/Scenes/Level_5_Endlessness.unity
+    guid: bec6ea7d5022b374a9ec615938245faf
+  - enabled: 1
+    path: Assets/Scenes/Level_6_Delusions.unity
+    guid: ac04e09b6d0aa2946b98684bcf19bdab
+  - enabled: 1
+    path: Assets/Scenes/Level_8_Confusion.unity
+    guid: 059911a932649384ba0e9097463dbdbc
+  - enabled: 1
+    path: Assets/Scenes/Level_9_Purgatory.unity
+    guid: 3de1868a7671c4942886fc530178574f
+  - enabled: 1
+    path: Assets/Scenes/Level_10_Illusions.unity
+    guid: bb3ce283ece10bc4dad0af8b604194ed
+  - enabled: 1
+    path: Assets/Scenes/Level_11_Damnation.unity
+    guid: 3d770a9e397950548b2e3a58a87eb5ba
+  - enabled: 1
+    path: Assets/Scenes/Level_12_Bliss.unity
+    guid: d95b11f227d8a4c4092b29b85ac644d7

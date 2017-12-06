@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level_10_Illusions.unity
+- path: Assets/Scenes/Level_12_Bliss.unity
   isLoaded: 1
   isActive: 1
